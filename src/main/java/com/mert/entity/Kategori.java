@@ -1,16 +1,15 @@
 package com.mert.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.HashSet;
 import java.util.Set;
 @NamedQueries({
     @NamedQuery(name = "Kategori.searchByName", query = "SELECT k FROM Kategori k WHERE lower(k.kategoriAdi) = :kategoriAdi"),
+
 })
+@EqualsAndHashCode(exclude = {"parentKategori", "altKategoriler"})
 @Data //
 @AllArgsConstructor //
 @NoArgsConstructor // parametreli constructor ların tümü
@@ -21,6 +20,7 @@ public class Kategori {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Id için otomatik artan HB sequence oluşturur
     private Long id;
+    @Column(unique = true)
     private String kategoriAdi;
     @ManyToOne
     @JoinColumn(name = "ustKategoriId")

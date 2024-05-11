@@ -1,10 +1,9 @@
 
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šó¹¥8÷Ì¹ö1J$aa976708-4282-43b0-8c17-427fd05ebb97
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šó¹¥8÷Ì¹ö1J$7b8103f2-675e-4034-b248-fd2e8ea64b98
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü”8÷Ì¹ö1J$c8f39a9a-b6d6-46c2-a56d-73e19652af93
-r	java:S106"+Replace this use of System.out by a logger.(¾ê×€şÿÿÿÿ8úÌ¹ö1J$f9aecea3-4970-41cf-b472-50f8b2e69e0c
-l	java:S106"+Replace this use of System.out by a logger.(­±»8üÌ¹ö1J$58952746-3a4a-4c1c-8187-60c680da9bee
-r	java:S106"+Replace this use of System.out by a logger.(¾ê×€şÿÿÿÿ8üÌ¹ö1J$ac78b09e-16f2-4179-96f7-f7bcc43abd46
-r	java:S106"+Replace this use of System.out by a logger.(¤‚ıùúÿÿÿÿ8ıÌ¹ö1J$e12d2c0a-3465-4bb5-9622-d32ed860f7d3
-l	java:S106"+Replace this use of System.out by a logger.(­±»8ÿ˜û¹ö1J$cb75ab31-3a0e-4fa0-9900-cb6fa83f9db9
-m	java:S106%"+Replace this use of System.out by a logger.(ì„´û8ºÀû¹ö1J$fd9a7f69-dd9e-4ce1-b814-ef278aef8af7
+m	java:S106"+Replace this use of System.out by a logger.(¸°îš8ÅÙ˜Èö1J$a1839233-75f0-4795-8a79-974b6539ecb8
+m	java:S106"+Replace this use of System.out by a logger.(õüëÃ8ÅÙ˜Èö1J$4d7fef4d-9e95-43f7-beb2-30b80bb0192a
+l	java:S106"+Replace this use of System.out by a logger.(­±»8ÆÙ˜Èö1J$9ef4b813-27c7-4872-89e9-91bc4266b00c
+m	java:S106"+Replace this use of System.out by a logger.(šÛÀ®8ÇÙ˜Èö1J$ecffb257-a972-4e38-947a-f258e658ff85
+r	java:S106&"+Replace this use of System.out by a logger.(‘è÷”ûÿÿÿÿ8öùÙÈö1J$1ddc6b15-e43a-403c-b71d-5c9f1f019bc5
+}	java:S125/"<This block of commented-out lines of code should be removed.(¸şp8îÓÙÈö1J$ca21de8a-a9bf-4fcc-a16f-dda17faf707c
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8åıÚÈö1J$acae7f55-1b65-464f-8194-103af90ad27f

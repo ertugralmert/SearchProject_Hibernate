@@ -30,21 +30,19 @@ public class Runner {
                 gui.gui();
                 switch (secim) {
                     case 1: // KATEGORI
-                        kategoriController.createMainCategory();
+                        kategoriController.createCategory();
                         break;
+
                     case 2:
-                        kategoriController.createChildCategory();
-                        break;
-                    case 3:
                         kategoriController.listCategories();
                         break;
-                    case 4:
+                    case 3:
                         urunController.createUrun();
                         break;
-                    case 5:
+                    case 4:
                         urunController.searchUrun();
                         break;
-                    case 6:
+                    case 5:
                         urunController.listUrun();
                         break;
                     default:

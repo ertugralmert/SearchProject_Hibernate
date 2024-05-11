@@ -1,3 +1,5 @@
 
 y
-java:S1128"1Remove this unused import 'com.mert.entity.Urun'.(Äƒ—ûÿÿÿÿ8‡Ñ¾ö1J$5299fd22-41d8-48d4-a228-c37c7ee9dfc7
+java:S1128"1Remove this unused import 'com.mert.entity.Urun'.(Äƒ—ûÿÿÿÿ8ü¶åÈö1J$080083c0-6d6e-4e11-9330-1a3615aa5f8f
+†
+java:S1128">Remove this unused import 'jakarta.persistence.EntityManager'.(·ïŸéúÿÿÿÿ8ü¶åÈö1J$280dd5da-9f23-4c72-8362-f57dec8f7f72

@@ -64,7 +64,7 @@ public class UrunController {
         String urunAdi = scanner.nextLine().trim().toLowerCase();
         List<Urun> result = urunService.searchUrun(urunAdi);
         if(!result.isEmpty()){
-            result.forEach(urun-> System.out.println("Ürün Adı: "+
+            result.forEach(urun-> System.out.println("Kategori: "+urun.getKategori().getKategoriAdi() + " - "+"Ürün Adı: "+
                     urun.getUrunAdi() + " - "+"Ürün Fiyatı: " + turkishStyle.formatPrice(urun.getUrunFiyati())+" - "+"Ürün Stok Adedi: "+ urun.getUrunStokAdedi() ));
         }else{
             System.out.println("Urun bulunamadı.");
