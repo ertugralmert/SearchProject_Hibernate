@@ -1,0 +1,45 @@
+-> Arama Uygulaması
+- Arama ile eşlesen tüm ürünlerin ilk 10 sonucu listelenecek.
+
+***************
+GUI:
+   -> Runner:
+   1- Kategori Ekle
+   2- Kategori Listele
+   3- Ürün Ekle
+   4- Ürün Ara
+   5- ÇIKIŞ
+
+   Not: Ürünler bir kategoriye ait olmak zorundadır. Kategorisi olmayan ürün eklenemez.
+
+   1- Kategori Ekle
+    Kategori Ekleme sayfası
+    Kategori adı:
+    Üst Kategori id:
+    Not: Bir kategori başka bir kategorinin alıntda yer alabilir.(Parent-Child)
+
+    2- Kategori Listele
+        Kategori Listesi
+            Bilgisayar
+               *Anakart
+               *Ram
+               Ekran Kartı
+            Beyaz Eşya
+                *Çamaşır Makinesi
+                *Bulaşık Makinesi
+
+    Kategori listelenirken gelişi güzel değil, üst kategori- alt kategori şeklinde listeyeceksiniz
+    3- Ürün ekleme
+        Ürün Ekle
+            Ürün Adı:
+            Kategori:
+            Açıklama:
+            Fiyat:
+            Stok:
+    4- Ürün Ara
+        Ürün Arama
+        Ara : ....
+        Kategori  | Ürün Adı     | Fiyat        | Stok
+        Yazıcı      Epson A222     5,433.00TL     543
+
+        No: output kısmında fiyat para formatınca yazılmalı.
